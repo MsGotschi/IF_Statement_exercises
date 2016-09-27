@@ -4,6 +4,8 @@
 #Drop MIT licence here
 age = int(input ("Please enter your age: "))
 location = input ("Where do you live? ")
-if age < 19 and location == "london" or "London":
+if age < 19 and location == "london" or "London": # this line contains errors!
+#should be
+#if age < 19 and (location == "london" or location == "London"):
     print ("You are eligable for an oyster card")
 
